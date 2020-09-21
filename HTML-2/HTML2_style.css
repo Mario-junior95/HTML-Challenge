@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*...............navigation bar.....................*/
+
+nav{
+    width: 100vw;
+    background-color: #ff0b7a;
+}
+
+nav ul{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.nav_bar ul li{
+    list-style-type: none;
+    font-size: 1.5vw;
+    padding:1vw 0;
+}
+
+li a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+/*.............image.............*/
+img{
+    height:30vw;
+    position: relative;
+    left: 20%;
+}
+
+/*..............Curriculum..............*/
+article h1{
+    text-align: center;
+    font-size: 2vw;
+    animation-name: anim_title;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anim_title{
+    0%{
+        color:#FFB000;
+    }
+    50%{
+        color:#FF0B7A;
+    }
+    100%{
+        color: #394CFF;
+    }
+}
+
+article{
+    display: table;   
+    margin: 0 auto 25px;
+}
+
+article .main_list{
+    max-width: 42vw;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+article .main_list li{
+    font-size: 1.2vw;
+    line-height: 2;
+}
+
+span{
+    color:#FF0B7A;
+    font-weight: bold;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main_list > li >  .ordered_list > li{
+    margin-left: 20%;
+}
+
+
+/*.............. footer..................*/
+
+
+footer{
+    height:30vw;
+    position: relative;
+    left: 6%;
+    font-size: 30px;
+}
+
+footer p{
+    margin-bottom:5%;
+    margin-left:25%;
+}
+
+footer p a{
+    text-decoration: none;
+}
+
+footer p i .codi{
+    margin-left: 15%;
+}
